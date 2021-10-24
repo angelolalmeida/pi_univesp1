@@ -3,4 +3,35 @@
 {%block conteudo%}
 <h1 class="mt-5">Empreendedores</h1>
 
+<table class="table">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Nome</th>
+      <th>Cidade</th>
+      <th>UF</th>
+    </tr>
+  </thead>
+  <tbody>    
+    {% for empreendedor in empreendedores_list %}
+    <tr>
+      <td>
+        teste
+        {{ empreendedor.id }}
+      </td>
+      <td>
+        {{ empreendedor.nome }}
+      </td>
+      <td>
+        {{ empreendedor.cidade }}
+      </td>
+      <td>
+        {{ empreendedor.uf }}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
 {% endblock %}

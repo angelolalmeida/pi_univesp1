@@ -9,4 +9,5 @@ class Empreendedor(models.Model):
     cidade = models.CharField(max_length=80)
     uf = models.CharField(max_length=2)
     whatsapp = models.CharField(max_length=11)
+        
     #id_usuario = models.ForeignKey()
