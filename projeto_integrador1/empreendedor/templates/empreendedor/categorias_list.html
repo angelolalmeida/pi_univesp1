@@ -1,0 +1,28 @@
+{%extends 'base.html' %}
+
+{%block conteudo%}
+<h1 class="mt-5">Categorias</h1>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Nome</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for categria in categorias_list %}
+    <tr>
+      <td>
+        {{ categoria.id }}
+      </td>
+      <td>
+        {{ categoria.nome }}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+{% endblock %}
