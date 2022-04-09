@@ -9,4 +9,6 @@ Primeiro projeto integrador da turma de 2020 do curso de **Engenharia da Computa
 
 **Banco de Dados:** SQLite3
 
+Para ver o projeto funcionando visite: https://projetointegrador1-macatuba.herokuapp.com/
+
 
